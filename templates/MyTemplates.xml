@@ -1,0 +1,23 @@
+<templateSet group="MyTemplates">
+  <template name="alertdialogMine" value="android.support.v7.app.AlertDialog $name$ = new AlertDialog.Builder($context$)&#10;                .setTitle(&quot;$title$&quot;)&#10;                .setMessage(&quot;$message$&quot;)&#10;                .setPositiveButton(&quot;$ok$&quot;, new android.content.DialogInterface.OnClickListener() {&#10;                    @Override&#10;                    public void onClick(DialogInterface dialog, int which) {&#10;                        $END$&#10;                    }&#10;                })&#10;                .setNegativeButton(&quot;$cancel$&quot;, new android.content.DialogInterface.OnClickListener() {&#10;                    @Override&#10;                    public void onClick(DialogInterface dialog, int which) {&#10;                        $END$&#10;                    }&#10;                })&#10;                .show();" description="Shows an alertdialog with text message and with ok,cancel buttons" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="suggestFirstVariableName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="context" expression="variableOfType(&quot;android.content.Context&quot;)" defaultValue="" alwaysStopAt="false" />
+    <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="message" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ok" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="cancel" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="COMPLETION" value="false" />
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
+  <template name="genericActivity" value="&lt;FrameLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&#10;    android:id=&quot;@+id/fragmnet_container&quot;&#10;    android:layout_width=&quot;match_parent&quot;&#10;    android:layout_height=&quot;match_parent&quot; /&gt;" description="This is a generic activity that can use all fragments" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+</templateSet>

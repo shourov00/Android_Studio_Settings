@@ -1,0 +1,18 @@
+<templateSet group="Android">
+  <template name="intentnew" value="Intent intent = new Intent(.this,.class);&#10;startActivity(intent);" description="Create intent" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="trycatch" value="try{&#10;    &#10;}catch(e: Exception){&#10;    Log.e(TAG, &quot;$func$: ${e.message}&quot;);&#10;}" shortcut="ENTER" description="create Try cath block" toReformat="true" toShortenFQNames="true">
+    <variable name="func" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="logt" value="private val TAG: String = &quot;AppDebug&quot;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>

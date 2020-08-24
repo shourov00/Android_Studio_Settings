@@ -1,0 +1,10 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="Android XML code style notification" displayType="NONE" shouldLog="false" />
+    <notification groupId="Build sync orphan modules" displayType="NONE" shouldLog="false" />
+    <notification groupId="Gradle KTS build files" displayType="NONE" shouldLog="false" />
+    <notification groupId="Gradle Notification Group" displayType="NONE" shouldLog="false" />
+    <notification groupId="JDK Location different to JAVA_HOME" displayType="NONE" shouldLog="false" />
+    <notification groupId="Material Theme Notifications" displayType="NONE" shouldLog="false" />
+  </component>
+</application>
