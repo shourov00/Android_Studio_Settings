@@ -4,7 +4,7 @@
     <property name="created">2019-03-19T22:12:10</property>
     <property name="ide">AndroidStudio</property>
     <property name="ideVersion">3.3.2.0</property>
-    <property name="modified">2020-08-06T13:20:03</property>
+    <property name="modified">2020-08-27T18:11:24</property>
     <property name="originalScheme">Material Deep Ocean</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.5" />
@@ -488,11 +488,6 @@
     <option name="CUSTOM_KEYWORD1_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="82b1ff" />
-      </value>
-    </option>
-    <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="ab51ba" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD4_ATTRIBUTES">
@@ -33602,11 +33597,6 @@
     <option name="Type parameter">
       <value>
         <option name="FOREGROUND" value="f78c6c" />
-      </value>
-    </option>
-    <option name="UNMATCHED_BRACE_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="d1243b" />
       </value>
     </option>
     <option name="Unresolved reference access">
